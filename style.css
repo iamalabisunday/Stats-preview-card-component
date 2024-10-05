@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats-preview-card-component {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-stats-preview-card-component {
+   width: fit-content;
+   height: auto;
+   padding: 3rem 6rem 3rem 3rem ;
+   background-color: hsl(233, 23%, 15%);
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 4rem;
+   border-radius: 1rem 0  0 1rem;
+}
+
+.text-section-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.header-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.header-text-container h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 350px;
+    height: auto;
+    line-height: 2.5rem;
+}
+
+.insights {
+    color: #AD5ADC;
+}
+
+.body-text-container {
+    width: fit-content;
+    height: auto;
+}
+
+.body-text-container p {
+    color: rgb(222, 222, 222);
+    font-size: 15px;
+    font-weight: 250;
+    width: 350px;
+    line-height: 1.5rem;
+}
+
+.quantitative-data-section-container {
+    width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    color: white;
+}
+
+.quantitative-data-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0.3rem;
+}
+
+.value-container {
+    width: fit-content;
+    height: auto;
+}
+
+.value-container p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.companies-container {
+    width: fit-content;
+    height: auto;
+}
+
+.companies-container p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(206, 206, 206);
+}
+
+.image-header-desktop-container {
+    width: fit-content;
+    height: 370px;
+    position: relative;
+}
+
+.image-header-desktop-container img {
+    width: fit-content;
+    height: 370px;
+    border-radius: 0rem 1rem  1rem 0;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#7800bd;
+    opacity: 60%;
+    border-radius: 0 1rem 1rem 0;
+}
